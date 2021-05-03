@@ -73,3 +73,19 @@ get_diff_time | average: 5.772320556640625
 ```
 
 ### 環境４ AWS cloud9 (t2.micro)
+
+``` txt
+get_diff_time | average_count: 10
+get_diff_time | count: 1000
+get_diff_time | time[0]: 3.3331737518310547
+get_diff_time | time[1]: 3.3945558071136475
+get_diff_time | time[2]: 3.5261995792388916
+get_diff_time | time[3]: 3.402911901473999
+get_diff_time | time[4]: 3.3673951625823975
+get_diff_time | time[5]: 3.388052225112915
+get_diff_time | time[6]: 3.295300245285034
+get_diff_time | time[7]: 3.3211112022399902
+get_diff_time | time[8]: 3.3768391609191895
+get_diff_time | time[9]: 3.3421950340270996
+get_diff_time | average: 3.374773406982422
+```
