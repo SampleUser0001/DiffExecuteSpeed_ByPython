@@ -5,7 +5,10 @@ Pythonのdiffの実行時間の目安を確認する。
 - [Template Python on Docker](#template-python-on-docker)
   - [実行](#実行)
   - [実行結果](#実行結果)
-    - [環境1](#環境1)
+    - [環境1 main Windows10 + WSL2](#環境1-main-windows10--wsl2)
+    - [環境2 オンプレcloud9](#環境2-オンプレcloud9)
+    - [環境３ Chromebook](#環境３-chromebook)
+    - [環境４ AWS cloud9 (t2.micro)](#環境４-aws-cloud9-t2micro)
 
 ## 実行
 
@@ -50,3 +53,23 @@ get_diff_time | time[8]: 5.215868711471558
 get_diff_time | time[9]: 5.2109057903289795
 get_diff_time | average: 5.21074333190918
 ```
+
+### 環境３ Chromebook
+
+``` txt
+get_diff_time | average_count: 10
+get_diff_time | count: 1000
+get_diff_time | time[0]: 5.998730659484863
+get_diff_time | time[1]: 5.820488452911377
+get_diff_time | time[2]: 5.977283954620361
+get_diff_time | time[3]: 5.888799667358398
+get_diff_time | time[4]: 5.66063380241394
+get_diff_time | time[5]: 5.64471173286438
+get_diff_time | time[6]: 5.765164852142334
+get_diff_time | time[7]: 5.661980390548706
+get_diff_time | time[8]: 5.638331890106201
+get_diff_time | time[9]: 5.6670801639556885
+get_diff_time | average: 5.772320556640625
+```
+
+### 環境４ AWS cloud9 (t2.micro)
