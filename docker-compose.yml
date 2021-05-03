@@ -2,7 +2,7 @@ version: '3'
 services:
   python:
     build: .
-    container_name: python
+    container_name: get_diff_time
     volumes:
       - ./start.sh:/start.sh
       - ./app:/app
